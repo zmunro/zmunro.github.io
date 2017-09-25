@@ -1,7 +1,12 @@
 body {
 	background-color: lightblue;
+	width: 70%;
 }
 
 h2 {
 	color: black;
+}
+
+span.italic {
+	font-style: italic;
 }
