@@ -13,3 +13,7 @@ ul {
 span.italic {
 	font-style: italic;
 }
+
+span.bold {
+	font-style: bold;
+}
