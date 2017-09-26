@@ -14,6 +14,6 @@ span.italic {
 	font-style: italic;
 }
 
-span.bold {
-	font-style: bold;
+span.thick {
+	font-weight: bold;
 }
