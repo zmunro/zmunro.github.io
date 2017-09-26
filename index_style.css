@@ -1,13 +1,14 @@
 body {
 	background-color: lightblue;
+	text-align: center;
 }
 
 h1 {
 	color: black;
-	text-align: center;
 }
 
 img {
 	height:337px;
 	width:270px;
+	align-content: center;
 }
