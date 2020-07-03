@@ -1,0 +1,304 @@
+/*
+SuperSans and CamWatts
+ */
+h1 {color: #3498db;}
+footer {border-top:4px solid #3498db;}
+.spanclass {color:#3498db;}
+
+.mltp a, .mltp-color {color:#3498db!important;}
+.eltp a, .eltp-color {color:#c0392b!important;}
+.nltp a, .nltp-color {color:#e67e22!important;}
+.oltp a, .oltp-color {color:#27ae60!important;}
+.altp a, .altp-color {color:#784bd9!important;}
+.enltp a, .enltp-color {color:#e85c67!important;}
+
+.mltp:hover{background:#3498db;}.mltp a:hover{color:#fff!important;}
+.nltp:hover{background:#e67e22;}.nltp a:hover{color:#fff!important;}
+.eltp:hover{background:#c0392b;}.eltp a:hover{color:#fff!important;}
+.oltp:hover{background:#27ae60;}.oltp a:hover{color:#fff!important;}
+.altp:hover{background:#784bd9;}.altp a:hover{color:#fff!important;}
+.enltp:hover{background:#e85c67;}.enltp a:hover{color:#fff!important;}
+
+.statcard{
+  border-radius: 2px;
+}
+
+.smallCardHeader, #teamHistory, #leftBanner, #rightBanner, #mainBanner{
+  background: #3498db!important;
+}
+
+.statLeadersHeader{
+  text-align: center;
+  padding:3px;
+  border-top-left-radius:4px;
+  border-top-right-radius:4px;
+  color:white;
+}
+
+.statLeadersHeader i{
+  filter: brightness(4000%);
+  -webkit-filter: brightness(4000%);
+}
+
+#minorsMajorsTabs{
+  border-bottom:none;
+  width:100%;
+  margin:0 auto;
+  margin-top:41px;
+}
+ 
+#minorsMajorsTabs li{
+  margin-bottom: -2px;
+  width: 50%;
+  text-align: center;
+  background:#e2e2e2;
+}
+
+#minorsMajorsTabs>li.active>a{
+  color:white;
+  font-weight:bold;
+}
+
+.nav-tabs>li>a:hover {
+  border-color: none;
+}
+
+.nav-tabs>li>a {
+  border-color: none;
+  margin-right: 0px;
+  border:none;
+  border-radius:0px;
+}
+
+#minorsMajorsContainer{
+  width:100%;
+  float:left;
+}
+
+#carouselContainer {
+    width: 99%;
+    margin: 0 auto;
+}
+
+.statcard-head {background-color: #3498db;color: white;box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);}
+#headerwrap {
+background-color:#3498db;
+margin-top: -20px;
+padding-top:200px;
+min-height: 450px;
+width: 100%;
+
+-webkit-background-size: 100%;
+-moz-background-size: 100%;
+-o-background-size: 100%;
+background-size: 100%;
+
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+body {
+  background-color: #f2f2f2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+  width: 100%;
+  overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h3 {
+  color: #303030;
+  font-weight: 100;
+  line-height: 1.8em;
+}
+
+h4 {
+	color: #95a5a6;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+/* Paragraph & Typographic */
+p {
+    font-size: 14px;
+	margin-bottom: 5px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a.sidel{
+    color: #FFFFFF;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar-default {
+	background-color: #3498db;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+
+input[type="search"] {
+    -webkit-appearance: button;
+}
+
+/* Helpers */
+
+.mt {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.form-control {
+	height: 42px;
+	font-size: 18px;
+	width: 280px;
+}
+
+.video {
+  margin-top: 15px;
+}
+
+i {
+	margin: 8px;
+	color: #111; 
+}
+
+@keyframes homecardhovereltp {
+    0%    {background-color: rgba(0,0,0,0.0)};
+    100% {background-color: rgba(192, 57, 43, 0.75);}
+}
+
+.homecardthing{width:23.7%;transition: all 0.15s ease-in-out;}
+
+.homecardthing:nth-of-type(1):hover{background-color:rgba(52, 152, 219, 0.75)!important; box-shadow:0 3px 10px rgba(0, 0, 0, 0.3)!important;}
+.homecardthing:nth-of-type(2):hover{background-color: rgba(192, 57, 43, 0.75)!important; box-shadow:0 3px 10px rgba(0, 0, 0, 0.3)!important;}
+.homecardthing:nth-of-type(3):hover{background-color:rgba(230, 126, 34, 0.75)!important; box-shadow:0 3px 10px rgba(0, 0, 0, 0.3)!important;}
+.homecardthing:nth-of-type(4):hover{background-color:rgba(39, 174, 96, 0.75)!important; box-shadow:0 3px 10px rgba(0, 0, 0, 0.3)!important;}
+/* HeaderWrap */
+#headerwrap {
+	margin-top: -20px;
+	padding-top:100px;
+	min-height: 300px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	margin-bottom: 15px;
+	color: white;
+	font-size: 48px;
+	font-weight: 900;
+}
+
+@media only screen and (max-width: 700px) {
+	#headerwrap h1 {
+		margin-bottom: 15px;
+		color: white;
+		font-size: 40px;
+		font-weight: 900;
+	}	
+	
+	.row {
+		margin-left: 0px;
+		margin-right:0px;
+	}
+	
+	.homecardthing {
+		width: 100%;
+		margin-top:15px!important;
+		margin-left:0px!important;
+	}
+	
+	#metalPanels {
+		display:none;
+	}
+	
+	#sidebarl{
+		display:none;
+	}
+	
+	#articleContainer{
+		padding:0px;
+	}
+	
+	#articleTitle{
+		font-size:40px!important;
+	}
+	
+	#articleAuthor{
+		padding: 0px 10px!important;
+	}
+	p {
+		padding: 10px 15px!important;
+		font-size: 1.0em!important;
+	}
+
+}
